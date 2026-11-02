@@ -94,10 +94,9 @@ st.markdown(
 
 
 df = pd.read_csv(
-    "/content/Pharmacy_Sales_Analysis.csv",
+    "Pharmacy_Sales_Analysis.csv",
     encoding="utf-8-sig"
 )
-
 # Interactive Filters
 st.sidebar.title("Dashboard Filters")
 
